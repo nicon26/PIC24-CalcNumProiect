@@ -1,0 +1,432 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd
+xst -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+ngdbuild -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ucf.ucf" -p xc3s400-ft256-4 "PIC24.ngc" PIC24.ngd
+map -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o PIC24_map.ncd PIC24.ngd PIC24.pcf
+par -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -w -intstyle ise -ol std -t 1 PIC24_map.ncd PIC24.ncd PIC24.pcf
+trce -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -e 3 -s 4 -xml PIC24 PIC24.ncd -o PIC24.twr PIC24.pcf -ucf ucf.ucf
+netgen -ise "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.ise" -intstyle ise -s 4 -pcf PIC24.pcf -rpw 100 -tpw 0 -ar Structure -tm PIC24 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim PIC24.ncd PIC24_timesim.vhd

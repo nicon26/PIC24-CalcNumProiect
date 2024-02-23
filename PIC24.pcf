@@ -1,0 +1,61 @@
+//! **************************************************************************
+// Written by: Map J.40 on Fri Jan 12 23:06:32 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+NET "Clk_BUFGP/IBUFG" BEL "Clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP Clk = BEL "U_ProgCnt/PC_5" BEL "U_ProgCnt/PC_4" BEL "U_ProgCnt/PC_3"
+        BEL "U_ProgCnt/PC_2" BEL "U_ProgCnt/PC_1" BEL "U_ProgCnt/PC_0" BEL
+        "inst_Mram_mem.SLICEM_F" BEL "inst_Mram_mem.SLICEM_G" BEL
+        "inst_Mram_mem1.SLICEM_F" BEL "inst_Mram_mem1.SLICEM_G" BEL
+        "inst_Mram_mem2.SLICEM_F" BEL "inst_Mram_mem2.SLICEM_G" BEL
+        "inst_Mram_mem3.SLICEM_F" BEL "inst_Mram_mem3.SLICEM_G" BEL
+        "inst_Mram_mem4.SLICEM_F" BEL "inst_Mram_mem4.SLICEM_G" BEL
+        "inst_Mram_mem7.SLICEM_F" BEL "inst_Mram_mem7.SLICEM_G" BEL
+        "inst_Mram_mem5.SLICEM_F" BEL "inst_Mram_mem5.SLICEM_G" BEL
+        "inst_Mram_mem6.SLICEM_F" BEL "inst_Mram_mem6.SLICEM_G" BEL
+        "inst_Mram_mem8.SLICEM_F" BEL "inst_Mram_mem8.SLICEM_G" BEL
+        "inst_Mram_mem9.SLICEM_F" BEL "inst_Mram_mem9.SLICEM_G" BEL
+        "inst_Mram_mem10.SLICEM_F" BEL "inst_Mram_mem10.SLICEM_G" BEL
+        "inst_Mram_mem11.SLICEM_F" BEL "inst_Mram_mem11.SLICEM_G" BEL
+        "inst_Mram_mem12.SLICEM_F" BEL "inst_Mram_mem12.SLICEM_G" BEL
+        "inst_Mram_mem13.SLICEM_F" BEL "inst_Mram_mem13.SLICEM_G" BEL
+        "inst_Mram_mem14.SLICEM_F" BEL "inst_Mram_mem14.SLICEM_G" BEL
+        "inst_Mram_mem15.SLICEM_F" BEL "inst_Mram_mem15.SLICEM_G" BEL
+        "inst_Mram_mem16.SLICEM_F" BEL "inst_Mram_mem16.SLICEM_G" BEL
+        "inst_Mram_mem17.SLICEM_F" BEL "inst_Mram_mem17.SLICEM_G" BEL
+        "inst_Mram_mem18.SLICEM_F" BEL "inst_Mram_mem18.SLICEM_G" BEL
+        "inst_Mram_mem19.SLICEM_F" BEL "inst_Mram_mem19.SLICEM_G" BEL
+        "inst_Mram_mem20.SLICEM_F" BEL "inst_Mram_mem20.SLICEM_G" BEL
+        "inst_Mram_mem21.SLICEM_F" BEL "inst_Mram_mem21.SLICEM_G" BEL
+        "inst_Mram_mem22.SLICEM_F" BEL "inst_Mram_mem22.SLICEM_G" BEL
+        "inst_Mram_mem25.SLICEM_F" BEL "inst_Mram_mem25.SLICEM_G" BEL
+        "inst_Mram_mem23.SLICEM_F" BEL "inst_Mram_mem23.SLICEM_G" BEL
+        "inst_Mram_mem24.SLICEM_F" BEL "inst_Mram_mem24.SLICEM_G" BEL
+        "inst_Mram_mem26.SLICEM_F" BEL "inst_Mram_mem26.SLICEM_G" BEL
+        "inst_Mram_mem27.SLICEM_F" BEL "inst_Mram_mem27.SLICEM_G" BEL
+        "inst_Mram_mem28.SLICEM_F" BEL "inst_Mram_mem28.SLICEM_G" BEL
+        "inst_Mram_mem29.SLICEM_F" BEL "inst_Mram_mem29.SLICEM_G" BEL
+        "inst_Mram_mem30.SLICEM_F" BEL "inst_Mram_mem30.SLICEM_G" BEL
+        "inst_Mram_mem31.SLICEM_F" BEL "inst_Mram_mem31.SLICEM_G" BEL
+        "U_ALU/N" BEL "U_ALU/sC" BEL "U_ALU/OV" BEL "U_ALU/sZ" BEL
+        "U_DataMem/inst_Mram_mem15" BEL "U_DataMem/inst_Mram_mem14" BEL
+        "U_DataMem/inst_Mram_mem13" BEL "U_DataMem/inst_Mram_mem12" BEL
+        "U_DataMem/inst_Mram_mem11" BEL "U_DataMem/inst_Mram_mem10" BEL
+        "U_DataMem/inst_Mram_mem9" BEL "U_DataMem/inst_Mram_mem8" BEL
+        "U_DataMem/inst_Mram_mem7" BEL "U_DataMem/inst_Mram_mem6" BEL
+        "U_DataMem/inst_Mram_mem5" BEL "U_DataMem/inst_Mram_mem4" BEL
+        "U_DataMem/inst_Mram_mem3" BEL "U_DataMem/inst_Mram_mem2" BEL
+        "U_DataMem/inst_Mram_mem1" BEL "U_DataMem/inst_Mram_mem" BEL
+        "U_DataMem/OUTW0_15" BEL "U_DataMem/OUTW0_14" BEL "U_DataMem/OUTW0_13"
+        BEL "U_DataMem/OUTW0_12" BEL "U_DataMem/OUTW0_11" BEL
+        "U_DataMem/OUTW0_10" BEL "U_DataMem/OUTW0_9" BEL "U_DataMem/OUTW0_8"
+        BEL "U_DataMem/OUTW0_7" BEL "U_DataMem/OUTW0_6" BEL
+        "U_DataMem/OUTW0_5" BEL "U_DataMem/OUTW0_4" BEL "U_DataMem/OUTW0_3"
+        BEL "U_DataMem/OUTW0_2" BEL "U_DataMem/OUTW0_1" BEL
+        "U_DataMem/OUTW0_0" BEL "U_ProgCnt/PC_4_1" BEL "U_ProgCnt/PC_2_1" BEL
+        "U_ProgCnt/PC_1_1" BEL "U_ProgCnt/PC_3_1" BEL "U_ProgCnt/PC_4_2" BEL
+        "U_ProgCnt/PC_5_1" BEL "U_ProgCnt/PC_3_2" BEL "U_ProgCnt/PC_1_2" BEL
+        "U_ProgCnt/PC_2_2";
+TS_Clk = PERIOD TIMEGRP "Clk" 20 ns HIGH 50%;
+SCHEMATIC END;

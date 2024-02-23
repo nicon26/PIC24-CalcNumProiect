@@ -1,0 +1,112 @@
+V3 70
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//ALU.vhd" 2023/12/22.09:49:51 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//ctrl.vhd" 2023/12/13.19:28:17 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//DataMem.vhd" 2023/12/22.10:32:44 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//File_Regs.vhd" 2023/12/22.09:56:07 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//MUX2V16.vhd" 2023/12/13.17:31:10 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//MUX2V5.vhd" 2023/12/19.11:38:46 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//PC_Update.vhd" 2023/12/14.11:36:55 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//PIC24.vhf" 2023/12/22.10:29:59 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//ProgCnt.vhd" 2023/12/19.11:38:48 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24//ROM32x24.vhd" 2023/12/19.13:35:33 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ALU.vhd" 2024/01/11.22:07:24 J.40
+EN work/ALU 1705093575 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ALU.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ALU/Behavioral 1705093576 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ALU.vhd" \
+      EN work/ALU 1705093575
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ctrl.vhd" 2024/01/12.08:44:17 J.40
+EN work/ctrl 1705093577 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ctrl.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ctrl/Behavioral 1705093578 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ctrl.vhd" \
+      EN work/ctrl 1705093577
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/DataMem.vhd" 2024/01/08.10:43:29 J.40
+EN work/DataMem 1705093579 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/DataMem.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/DataMem/Behavioral 1705093580 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/DataMem.vhd" \
+      EN work/DataMem 1705093579
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/File_Regs.vhd" 2024/01/07.17:27:52 J.40
+EN work/File_Regs 1705093581 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/File_Regs.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/File_Regs/Behavioral 1705093582 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/File_Regs.vhd" \
+      EN work/File_Regs 1705093581
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/MUX2V16.vhd" 2023/12/30.09:49:22 J.40
+EN work/MUX2V16 1705093585 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/MUX2V16.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V16/Behavioral 1705093586 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/MUX2V16.vhd" \
+      EN work/MUX2V16 1705093585
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/MUX2V5.vhd" 2023/12/30.09:49:22 J.40
+EN work/MUX2V4 1705093583 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/MUX2V5.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V4/Behavioral 1705093584 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/MUX2V5.vhd" \
+      EN work/MUX2V4 1705093583
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PC_Update.vhd" 2024/01/07.17:11:01 J.40
+EN work/PC_Update 1705093587 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PC_Update.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/PC_Update/Behavioral 1705093588 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PC_Update.vhd" \
+      EN work/PC_Update 1705093587
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.vhf" 2024/01/09.17:40:24 J.40
+EN work/PIC24 1705093593 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.vhf" \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/PIC24/BEHAVIORAL 1705093594 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/PIC24.vhf" \
+      EN work/PIC24 1705093593 CP ALU CP ctrl CP DataMem CP File_Regs CP MUX2V4 \
+      CP MUX2V16 CP PC_Update CP ProgCnt CP ROM32x24
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ProgCnt.vhd" 2024/01/06.10:42:08 J.40
+EN work/ProgCnt 1705093589 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ProgCnt.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ProgCnt/Behavioral 1705093590 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ProgCnt.vhd" \
+      EN work/ProgCnt 1705093589
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/ROM32x24.vhd" 2023/12/19.13:35:33 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testA.vhd" 2024/01/09.11:45:39 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testBranchC.vhd" 2024/01/12.20:51:15 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testBranchN.vhd" 2024/01/12.21:01:08 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testBranchOV.vhd" 2024/01/12.21:12:51 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testBranchZ.vhd" 2024/01/12.16:21:01 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testBSW.vhd" 2023/12/22.14:17:42 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testC.vhd" 2024/01/09.11:45:15 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testN.vhd" 2024/01/12.09:51:26 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testOV.vhd" 2024/01/09.12:14:14 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testRRCflagC.vhd" 2024/01/12.17:04:00 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testRRCflagN.vhd" 2024/01/12.22:12:27 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testRRCflagZ.vhd" 2024/01/12.21:35:51 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testSUBflagC.vhd" 2024/01/12.17:26:53 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testSUBflagN.vhd" 2024/01/12.17:33:46 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testSUBflagOV.vhd" 2024/01/12.17:37:25 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testSUBflagZ.vhd" 2024/01/12.17:41:53 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testZ.vhd" 2023/12/22.12:27:21 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testZEflagC.vhd" 2024/01/12.22:35:01 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testZEflagN.vhd" 2024/01/12.22:51:27 J.40
+FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testZEflagZ.vhd" 2024/01/12.23:06:06 J.40
+EN work/ROM32x24 1705093591 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testZEflagZ.vhd" \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ROM32x24/Behavioral 1705093592 \
+      FL "C:/Users/gdsob/OneDrive/Desktop/facultate/an3/PROIECT CALCULATOARE NUMERICE/PIC24/testZEflagZ.vhd" \
+      EN work/ROM32x24 1705093591
